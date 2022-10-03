@@ -1,0 +1,152 @@
+*{
+    margin: 0; /*lo junta todo*/
+    box-sizing: border-box; /**/
+    
+}
+.Ini{
+    font-size: 20px;
+}
+body {
+    font-family: sans-serif;/*letra moderna*/
+    font-size: 20px;
+    padding: 90px 20px 0;  /*altura ancho y margen*/
+}
+
+.header{
+    background-color: green; 
+    height: 90px; /*altura*/
+    position: fixed;
+    top: 0; /*ignora padding*/
+    left: 0;
+    width: 100%;
+}
+article h2 {
+   color: green;
+   font-size: 40px;
+}
+.header-mam{
+   background-color: burlywood; 
+    height: 90px; /*altura*/
+    position: fixed;
+    top: 0; /*ignora padding*/
+    left: 0;
+    width: 100%; 
+}
+article h3 {
+   color: burlywood;
+   font-size: 40px;
+}
+.header-av{
+   background-color: cornflowerblue; 
+    height: 90px; /*altura*/
+    position: fixed;
+    top: 0; /*ignora padding*/
+    left: 0;
+    width: 100%; 
+}
+
+article h4 {
+   color: cornflowerblue;
+   font-size: 40px;
+}
+.header-re{
+   background-color: coral; 
+    height: 90px; /*altura*/
+    position: fixed;
+    top: 0; /*ignora padding*/
+    left: 0;
+    width: 100%; 
+}
+article h5 {
+   color: coral;
+   font-size: 40px;
+}
+.header-an{
+   background-color: blueviolet; 
+    height: 90px; /*altura*/
+    position: fixed;
+    top: 0; /*ignora padding*/
+    left: 0;
+    width: 100%; 
+}
+article h6 {
+   color: blueviolet;
+   font-size: 40px;
+}
+.header-pe{
+    background-color: #0033ff; 
+    height: 90px; /*altura*/
+    position: fixed;
+    top: 0; /*ignora padding*/
+    left: 0;
+    width: 100%; 
+}
+.pez {
+   color: #0033ff;
+   font-size: 40px;
+}
+.header-ar{
+    background-color: dimgrey; 
+    height: 90px; /*altura*/
+    position: fixed;
+    top: 0; /*ignora padding*/
+    left: 0;
+    width: 100%; 
+}
+.ar {
+   color: dimgrey;
+   font-size: 40px;
+}
+.nav {
+    display: flex;/*Misma jerarquia de ul y a*/
+    justify-content: space-between;/*espacio entre menu y logo*/
+    margin: 0 auto; /*margen superior y inferior*/
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none; /*quitar subrayado*/
+}
+/*Darles funcionamiento a los - com*/
+.nav-com {
+    font-weight: bold;
+    color: dodgerblue;
+    font-size: 20px;
+    text-decoration: activeborder;
+}
+.nav-com:hover{
+    background-color: beige;
+    font-size: 25px;
+    transition: 1s;
+    border-radius: 8px;
+
+}
+.logo {
+    font-size: 30px; /*size de letra*/
+    font-weight: bold; /*en negrita*/
+    padding: 0 40px; /*40 px a la derecha*/
+    line-height: 90px; /*centrar en base a la altura*/
+}
+
+.nav-menu { 
+    display: flex; /*para juntar los elementos*/
+    margin-right: 40px; /*separa del margen*/
+    list-style: none; /*se quita el bullet*/
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px; /*arriba y abajo || derecha izquierda*/
+    line-height: 90px; /*centrar en base a la altura*/
+}
+
+.nav-menu-link:hover { /*:hover = sucede cuando el puntero pasa por ahi*/
+    background-color: #024070;
+    transition: 1s;/*que dure un poquito*/
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 8px;/*quita puntas de background*/
+}
+
